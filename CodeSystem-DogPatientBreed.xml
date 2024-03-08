@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DogPatientBreed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/DogPatientBreed</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">labrador<a name="DogPatientBreed-labrador"> </a></td><td>Labrador</td><td>A retriever breed of dog.</td></tr><tr><td style="white-space:nowrap">beagle<a name="DogPatientBreed-beagle"> </a></td><td>Beagle</td><td>A small hound breed of dog.</td></tr><tr><td style="white-space:nowrap">bulldog<a name="DogPatientBreed-bulldog"> </a></td><td>Bulldog</td><td>A muscular, heavy dog with a wrinkled face and a distinctive pushed-in nose.</td></tr><tr><td style="white-space:nowrap">poodle<a name="DogPatientBreed-poodle"> </a></td><td>Poodle</td><td>A breed of dog with a curly coat that is often clipped.</td></tr><tr><td style="white-space:nowrap">husky<a name="DogPatientBreed-husky"> </a></td><td>Husky</td><td>A breed of dog with a thick double coat that can be of various colors.</td></tr><tr><td style="white-space:nowrap">chihuahua<a name="DogPatientBreed-chihuahua"> </a></td><td>Chihuahua</td><td>A small breed of dog.</td></tr><tr><td style="white-space:nowrap">doberman<a name="DogPatientBreed-doberman"> </a></td><td>Doberman</td><td>A breed of dog known for its loyalty and intelligence.</td></tr><tr><td style="white-space:nowrap">shiba<a name="DogPatientBreed-shiba"> </a></td><td>Shiba Inu</td><td>A breed of dog from Japan.</td></tr><tr><td style="white-space:nowrap">shihtzu<a name="DogPatientBreed-shihtzu"> </a></td><td>Shih Tzu</td><td>A breed of dog with a long, flowing coat.</td></tr><tr><td style="white-space:nowrap">other<a name="DogPatientBreed-other"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>
+  </text>
+  <url value="https://example.org/fhir/CodeSystem/DogPatientBreed"/>
+  <version value="0.1.0"/>
+  <name value="DogPatientBreed"/>
+  <title value="Dog Patient Breed Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes of dog breeds"/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="labrador"/>
+    <display value="Labrador"/>
+    <definition value="A retriever breed of dog."/>
+  </concept>
+  <concept>
+    <code value="beagle"/>
+    <display value="Beagle"/>
+    <definition value="A small hound breed of dog."/>
+  </concept>
+  <concept>
+    <code value="bulldog"/>
+    <display value="Bulldog"/>
+    <definition value="A muscular, heavy dog with a wrinkled face and a distinctive pushed-in nose."/>
+  </concept>
+  <concept>
+    <code value="poodle"/>
+    <display value="Poodle"/>
+    <definition value="A breed of dog with a curly coat that is often clipped."/>
+  </concept>
+  <concept>
+    <code value="husky"/>
+    <display value="Husky"/>
+    <definition value="A breed of dog with a thick double coat that can be of various colors."/>
+  </concept>
+  <concept>
+    <code value="chihuahua"/>
+    <display value="Chihuahua"/>
+    <definition value="A small breed of dog."/>
+  </concept>
+  <concept>
+    <code value="doberman"/>
+    <display value="Doberman"/>
+    <definition value="A breed of dog known for its loyalty and intelligence."/>
+  </concept>
+  <concept>
+    <code value="shiba"/>
+    <display value="Shiba Inu"/>
+    <definition value="A breed of dog from Japan."/>
+  </concept>
+  <concept>
+    <code value="shihtzu"/>
+    <display value="Shih Tzu"/>
+    <definition value="A breed of dog with a long, flowing coat."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Any other breed not included in the list."/>
+  </concept>
+</CodeSystem>

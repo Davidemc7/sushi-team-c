@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="PetZootechnicalPurpose"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/PetZootechnicalPurpose</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">hunting<a name="PetZootechnicalPurpose-hunting"> </a></td><td>Hunting</td><td>The pet is used for hunting purposes.</td></tr><tr><td style="white-space:nowrap">companion<a name="PetZootechnicalPurpose-companion"> </a></td><td>Companion</td><td>The pet is used for companionship.</td></tr><tr><td style="white-space:nowrap">guard<a name="PetZootechnicalPurpose-guard"> </a></td><td>Guard</td><td>The pet is used for guarding purposes.</td></tr><tr><td style="white-space:nowrap">show<a name="PetZootechnicalPurpose-show"> </a></td><td>Show</td><td>The pet is used for show purposes.</td></tr><tr><td style="white-space:nowrap">working<a name="PetZootechnicalPurpose-working"> </a></td><td>Working</td><td>The pet is used for working purposes.</td></tr><tr><td style="white-space:nowrap">breeding<a name="PetZootechnicalPurpose-breeding"> </a></td><td>Breeding</td><td>The pet is used for breeding purposes.</td></tr><tr><td style="white-space:nowrap">therapy<a name="PetZootechnicalPurpose-therapy"> </a></td><td>Therapy</td><td>The pet is used for therapy purposes.</td></tr><tr><td style="white-space:nowrap">service<a name="PetZootechnicalPurpose-service"> </a></td><td>Service</td><td>The pet is used for service purposes.</td></tr><tr><td style="white-space:nowrap">emotionalSupport<a name="PetZootechnicalPurpose-emotionalSupport"> </a></td><td>Emotional Support</td><td>The pet is used for emotional support purposes (e.g. emotional support animal).</td></tr><tr><td style="white-space:nowrap">recreational<a name="PetZootechnicalPurpose-recreational"> </a></td><td>Recreational</td><td>The pet is used for recreational purposes.</td></tr><tr><td style="white-space:nowrap">competition<a name="PetZootechnicalPurpose-competition"> </a></td><td>Competition</td><td>The pet is used for competition purposes.</td></tr><tr><td style="white-space:nowrap">other<a name="PetZootechnicalPurpose-other"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>
+  </text>
+  <url value="https://example.org/fhir/CodeSystem/PetZootechnicalPurpose"/>
+  <version value="0.1.0"/>
+  <name value="PetZootechnicalPurpose"/>
+  <title value="Pet Zootechnical Purpose CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes for the purpose of keeping a pet."/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="hunting"/>
+    <display value="Hunting"/>
+    <definition value="The pet is used for hunting purposes."/>
+  </concept>
+  <concept>
+    <code value="companion"/>
+    <display value="Companion"/>
+    <definition value="The pet is used for companionship."/>
+  </concept>
+  <concept>
+    <code value="guard"/>
+    <display value="Guard"/>
+    <definition value="The pet is used for guarding purposes."/>
+  </concept>
+  <concept>
+    <code value="show"/>
+    <display value="Show"/>
+    <definition value="The pet is used for show purposes."/>
+  </concept>
+  <concept>
+    <code value="working"/>
+    <display value="Working"/>
+    <definition value="The pet is used for working purposes."/>
+  </concept>
+  <concept>
+    <code value="breeding"/>
+    <display value="Breeding"/>
+    <definition value="The pet is used for breeding purposes."/>
+  </concept>
+  <concept>
+    <code value="therapy"/>
+    <display value="Therapy"/>
+    <definition value="The pet is used for therapy purposes."/>
+  </concept>
+  <concept>
+    <code value="service"/>
+    <display value="Service"/>
+    <definition value="The pet is used for service purposes."/>
+  </concept>
+  <concept>
+    <code value="emotionalSupport"/>
+    <display value="Emotional Support"/>
+    <definition value="The pet is used for emotional support purposes (e.g. emotional support animal)."/>
+  </concept>
+  <concept>
+    <code value="recreational"/>
+    <display value="Recreational"/>
+    <definition value="The pet is used for recreational purposes."/>
+  </concept>
+  <concept>
+    <code value="competition"/>
+    <display value="Competition"/>
+    <definition value="The pet is used for competition purposes."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Any other breed not included in the list."/>
+  </concept>
+</CodeSystem>

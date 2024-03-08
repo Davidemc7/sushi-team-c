@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PatientBreed",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-DogPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/DogPatientBreed</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-CatPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/CatPatientBreed</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-BirdPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/BirdPatientBreed</code></a></li></ul></div>"
+  },
+  "url" : "https://example.org/fhir/ValueSet/PatientBreed",
+  "version" : "0.1.0",
+  "name" : "PatientBreed",
+  "title" : "Patient Breed ValueSet",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2024-03-05T18:24:47-05:00",
+  "publisher" : "Example Publisher Team C",
+  "contact" : [{
+    "name" : "Example Publisher Team C",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes for the breed of a patient.",
+  "purpose" : "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed"
+    },
+    {
+      "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed"
+    },
+    {
+      "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed"
+    }]
+  }
+}

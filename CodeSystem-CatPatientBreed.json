@@ -1,0 +1,77 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CatPatientBreed",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/CatPatientBreed</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">domestic<a name=\"CatPatientBreed-domestic\"> </a></td><td>Domestic</td><td>Domestic cat breed.</td></tr><tr><td style=\"white-space:nowrap\">siamese<a name=\"CatPatientBreed-siamese\"> </a></td><td>Siamese</td><td>Siamese cat breed.</td></tr><tr><td style=\"white-space:nowrap\">persian<a name=\"CatPatientBreed-persian\"> </a></td><td>Persian</td><td>Persian cat breed with long hair and a round face.</td></tr><tr><td style=\"white-space:nowrap\">siberian<a name=\"CatPatientBreed-siberian\"> </a></td><td>Siberian</td><td>Siberian cat breed with a long, thick coat and a bush tail.</td></tr><tr><td style=\"white-space:nowrap\">british_shorthair<a name=\"CatPatientBreed-british_shorthair\"> </a></td><td>British Shorthair</td><td>British Shorthair cat breed with a round face and a dense coat.</td></tr><tr><td style=\"white-space:nowrap\">russian_blue<a name=\"CatPatientBreed-russian_blue\"> </a></td><td>Russian Blue</td><td>Russian Blue cat breed with a short, dense coat and a plush blue-gray color.</td></tr><tr><td style=\"white-space:nowrap\">muchkin<a name=\"CatPatientBreed-muchkin\"> </a></td><td>Munchkin</td><td>Munchkin cat breed with short legs.</td></tr><tr><td style=\"white-space:nowrap\">ragdoll<a name=\"CatPatientBreed-ragdoll\"> </a></td><td>Ragdoll</td><td>Ragdoll cat breed with a semi-long coat and blue eyes.</td></tr><tr><td style=\"white-space:nowrap\">birman<a name=\"CatPatientBreed-birman\"> </a></td><td>Birman</td><td>Birman cat breed with a long, silky coat and deep blue eyes.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"CatPatientBreed-other\"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>"
+  },
+  "url" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+  "version" : "0.1.0",
+  "name" : "CatPatientBreed",
+  "title" : "Cat Patient Breed Code System",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2024-03-05T18:24:47-05:00",
+  "publisher" : "Example Publisher Team C",
+  "contact" : [{
+    "name" : "Example Publisher Team C",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes of cat breeds",
+  "purpose" : "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "domestic",
+    "display" : "Domestic",
+    "definition" : "Domestic cat breed."
+  },
+  {
+    "code" : "siamese",
+    "display" : "Siamese",
+    "definition" : "Siamese cat breed."
+  },
+  {
+    "code" : "persian",
+    "display" : "Persian",
+    "definition" : "Persian cat breed with long hair and a round face."
+  },
+  {
+    "code" : "siberian",
+    "display" : "Siberian",
+    "definition" : "Siberian cat breed with a long, thick coat and a bush tail."
+  },
+  {
+    "code" : "british_shorthair",
+    "display" : "British Shorthair",
+    "definition" : "British Shorthair cat breed with a round face and a dense coat."
+  },
+  {
+    "code" : "russian_blue",
+    "display" : "Russian Blue",
+    "definition" : "Russian Blue cat breed with a short, dense coat and a plush blue-gray color."
+  },
+  {
+    "code" : "muchkin",
+    "display" : "Munchkin",
+    "definition" : "Munchkin cat breed with short legs."
+  },
+  {
+    "code" : "ragdoll",
+    "display" : "Ragdoll",
+    "definition" : "Ragdoll cat breed with a semi-long coat and blue eyes."
+  },
+  {
+    "code" : "birman",
+    "display" : "Birman",
+    "definition" : "Birman cat breed with a long, silky coat and deep blue eyes."
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Any other breed not included in the list."
+  }]
+}

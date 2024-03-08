@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CatPatientBreed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/CatPatientBreed</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">domestic<a name="CatPatientBreed-domestic"> </a></td><td>Domestic</td><td>Domestic cat breed.</td></tr><tr><td style="white-space:nowrap">siamese<a name="CatPatientBreed-siamese"> </a></td><td>Siamese</td><td>Siamese cat breed.</td></tr><tr><td style="white-space:nowrap">persian<a name="CatPatientBreed-persian"> </a></td><td>Persian</td><td>Persian cat breed with long hair and a round face.</td></tr><tr><td style="white-space:nowrap">siberian<a name="CatPatientBreed-siberian"> </a></td><td>Siberian</td><td>Siberian cat breed with a long, thick coat and a bush tail.</td></tr><tr><td style="white-space:nowrap">british_shorthair<a name="CatPatientBreed-british_shorthair"> </a></td><td>British Shorthair</td><td>British Shorthair cat breed with a round face and a dense coat.</td></tr><tr><td style="white-space:nowrap">russian_blue<a name="CatPatientBreed-russian_blue"> </a></td><td>Russian Blue</td><td>Russian Blue cat breed with a short, dense coat and a plush blue-gray color.</td></tr><tr><td style="white-space:nowrap">muchkin<a name="CatPatientBreed-muchkin"> </a></td><td>Munchkin</td><td>Munchkin cat breed with short legs.</td></tr><tr><td style="white-space:nowrap">ragdoll<a name="CatPatientBreed-ragdoll"> </a></td><td>Ragdoll</td><td>Ragdoll cat breed with a semi-long coat and blue eyes.</td></tr><tr><td style="white-space:nowrap">birman<a name="CatPatientBreed-birman"> </a></td><td>Birman</td><td>Birman cat breed with a long, silky coat and deep blue eyes.</td></tr><tr><td style="white-space:nowrap">other<a name="CatPatientBreed-other"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>
+  </text>
+  <url value="https://example.org/fhir/CodeSystem/CatPatientBreed"/>
+  <version value="0.1.0"/>
+  <name value="CatPatientBreed"/>
+  <title value="Cat Patient Breed Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes of cat breeds"/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="domestic"/>
+    <display value="Domestic"/>
+    <definition value="Domestic cat breed."/>
+  </concept>
+  <concept>
+    <code value="siamese"/>
+    <display value="Siamese"/>
+    <definition value="Siamese cat breed."/>
+  </concept>
+  <concept>
+    <code value="persian"/>
+    <display value="Persian"/>
+    <definition value="Persian cat breed with long hair and a round face."/>
+  </concept>
+  <concept>
+    <code value="siberian"/>
+    <display value="Siberian"/>
+    <definition value="Siberian cat breed with a long, thick coat and a bush tail."/>
+  </concept>
+  <concept>
+    <code value="british_shorthair"/>
+    <display value="British Shorthair"/>
+    <definition value="British Shorthair cat breed with a round face and a dense coat."/>
+  </concept>
+  <concept>
+    <code value="russian_blue"/>
+    <display value="Russian Blue"/>
+    <definition value="Russian Blue cat breed with a short, dense coat and a plush blue-gray color."/>
+  </concept>
+  <concept>
+    <code value="muchkin"/>
+    <display value="Munchkin"/>
+    <definition value="Munchkin cat breed with short legs."/>
+  </concept>
+  <concept>
+    <code value="ragdoll"/>
+    <display value="Ragdoll"/>
+    <definition value="Ragdoll cat breed with a semi-long coat and blue eyes."/>
+  </concept>
+  <concept>
+    <code value="birman"/>
+    <display value="Birman"/>
+    <definition value="Birman cat breed with a long, silky coat and deep blue eyes."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Any other breed not included in the list."/>
+  </concept>
+</CodeSystem>

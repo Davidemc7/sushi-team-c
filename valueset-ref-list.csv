@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://example.org/fhir/ValueSet/PatientBreed,0.1.0,draft,,PatientBreed,Patient Breed ValueSet,"Codes for the breed of a patient.",,"Internal"
+https://example.org/fhir/ValueSet/PatientGenderStatus,0.1.0,draft,,PatientGenderStatus,Patient Gender Status ValueSet,"Codes of patient gender status",,"Internal"
+https://example.org/fhir/ValueSet/PatientSpecies,0.1.0,draft,,PatientSpecies,Patient Species Value Set,"Codes of patient species",,"Internal"

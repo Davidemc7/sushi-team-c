@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PatientGenderStatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-PatientGenderStatus.html"><code>https://example.org/fhir/CodeSystem/PatientGenderStatus</code></a></li></ul></div>
+  </text>
+  <url value="https://example.org/fhir/ValueSet/PatientGenderStatus"/>
+  <version value="0.1.0"/>
+  <name value="PatientGenderStatus"/>
+  <title value="Patient Gender Status ValueSet"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes of patient gender status"/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <compose>
+    <include>
+      <system value="https://example.org/fhir/CodeSystem/PatientGenderStatus"/>
+    </include>
+  </compose>
+</ValueSet>

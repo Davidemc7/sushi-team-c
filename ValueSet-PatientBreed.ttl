@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ValueSet/PatientBreed> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientBreed"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-DogPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/DogPatientBreed</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-CatPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/CatPatientBreed</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-BirdPatientBreed.html\"><code>https://example.org/fhir/CodeSystem/BirdPatientBreed</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/ValueSet/PatientBreed"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PatientBreed"] ; # 
+  fhir:title [ fhir:v "Patient Breed ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-05T18:24:47-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher Team C"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher Team C" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for the breed of a patient."] ; # 
+  fhir:purpose [ fhir:v "This FHIR resource type CodeSystem has been created for educational purposes."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://example.org/fhir/CodeSystem/DogPatientBreed"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "https://example.org/fhir/CodeSystem/CatPatientBreed"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "https://example.org/fhir/CodeSystem/BirdPatientBreed"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

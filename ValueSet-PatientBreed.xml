@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PatientBreed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-DogPatientBreed.html"><code>https://example.org/fhir/CodeSystem/DogPatientBreed</code></a></li><li>Include all codes defined in <a href="CodeSystem-CatPatientBreed.html"><code>https://example.org/fhir/CodeSystem/CatPatientBreed</code></a></li><li>Include all codes defined in <a href="CodeSystem-BirdPatientBreed.html"><code>https://example.org/fhir/CodeSystem/BirdPatientBreed</code></a></li></ul></div>
+  </text>
+  <url value="https://example.org/fhir/ValueSet/PatientBreed"/>
+  <version value="0.1.0"/>
+  <name value="PatientBreed"/>
+  <title value="Patient Breed ValueSet"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes for the breed of a patient."/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <compose>
+    <include>
+      <system value="https://example.org/fhir/CodeSystem/DogPatientBreed"/>
+    </include>
+    <include>
+      <system value="https://example.org/fhir/CodeSystem/CatPatientBreed"/>
+    </include>
+    <include>
+      <system value="https://example.org/fhir/CodeSystem/BirdPatientBreed"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,303 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "b1d9a87f-25df-4564-8f2f-6c6aaa0265e9",
+  "meta" : {
+    "lastUpdated" : "2024-03-05T18:24:47.614-05:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://example.org/fhir/ValueSet/PatientBreed",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-BirdPatientBreed.html\">codesystem Bird Patient Breed Code System v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-CatPatientBreed.html\">codesystem Cat Patient Breed Code System v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-DogPatientBreed.html\">codesystem Dog Patient Breed Code System v0.1.0 (CodeSystem)</a></li></ul></div><p>This value set contains 26 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-labrador\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-labrador\">labrador</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Labrador</td><td><div><p>A retriever breed of dog.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-beagle\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-beagle\">beagle</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Beagle</td><td><div><p>A small hound breed of dog.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-bulldog\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-bulldog\">bulldog</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Bulldog</td><td><div><p>A muscular, heavy dog with a wrinkled face and a distinctive pushed-in nose.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-poodle\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-poodle\">poodle</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Poodle</td><td><div><p>A breed of dog with a curly coat that is often clipped.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-husky\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-husky\">husky</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Husky</td><td><div><p>A breed of dog with a thick double coat that can be of various colors.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-chihuahua\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-chihuahua\">chihuahua</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Chihuahua</td><td><div><p>A small breed of dog.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-doberman\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-doberman\">doberman</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Doberman</td><td><div><p>A breed of dog known for its loyalty and intelligence.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-shiba\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-shiba\">shiba</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Shiba Inu</td><td><div><p>A breed of dog from Japan.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-shihtzu\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-shihtzu\">shihtzu</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Shih Tzu</td><td><div><p>A breed of dog with a long, flowing coat.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-DogPatientBreed-other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-DogPatientBreed.html#DogPatientBreed-other\">other</a></td><td>https://example.org/fhir/CodeSystem/DogPatientBreed</td><td>Other</td><td><div><p>Any other breed not included in the list.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-domestic\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-domestic\">domestic</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Domestic</td><td><div><p>Domestic cat breed.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-siamese\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-siamese\">siamese</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Siamese</td><td><div><p>Siamese cat breed.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-persian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-persian\">persian</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Persian</td><td><div><p>Persian cat breed with long hair and a round face.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-siberian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-siberian\">siberian</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Siberian</td><td><div><p>Siberian cat breed with a long, thick coat and a bush tail.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-british-shorthair\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-british_shorthair\">british_shorthair</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>British Shorthair</td><td><div><p>British Shorthair cat breed with a round face and a dense coat.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-russian-blue\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-russian_blue\">russian_blue</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Russian Blue</td><td><div><p>Russian Blue cat breed with a short, dense coat and a plush blue-gray color.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-muchkin\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-muchkin\">muchkin</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Munchkin</td><td><div><p>Munchkin cat breed with short legs.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-ragdoll\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-ragdoll\">ragdoll</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Ragdoll</td><td><div><p>Ragdoll cat breed with a semi-long coat and blue eyes.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-birman\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-birman\">birman</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Birman</td><td><div><p>Birman cat breed with a long, silky coat and deep blue eyes.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-CatPatientBreed-other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CatPatientBreed.html#CatPatientBreed-other\">other</a></td><td>https://example.org/fhir/CodeSystem/CatPatientBreed</td><td>Other</td><td><div><p>Any other breed not included in the list.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-canary\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-canary\">canary</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Canary</td><td><div><p>A small songbird in the finch family originating from the Macaronesian islands.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-cockatiel\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-cockatiel\">cockatiel</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Cockatiel</td><td><div><p>A small parrot native to Australia.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-parrot\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-parrot\">parrot</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Parrot</td><td><div><p>A bird with a curved beak and a strong, zygodactylous feet.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-sparrow\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-sparrow\">sparrow</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Sparrow</td><td><div><p>A family of small passerine birds.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-dove\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-dove\">dove</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Dove</td><td><div><p>A bird of the pigeon family.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-BirdPatientBreed-other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-BirdPatientBreed.html#BirdPatientBreed-other\">other</a></td><td>https://example.org/fhir/CodeSystem/BirdPatientBreed</td><td>Other</td><td><div><p>Any other breed not included in the list.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://example.org/fhir/ValueSet/PatientBreed",
+      "version" : "0.1.0",
+      "name" : "PatientBreed",
+      "title" : "Patient Breed ValueSet",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2024-03-05T18:24:47-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:14fa6a05-e59f-4526-91c9-a6ad96dfda3f",
+        "timestamp" : "2024-03-05T18:25:41-05:00",
+        "total" : 26,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://example.org/fhir/CodeSystem/DogPatientBreed|0.1.0"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://example.org/fhir/CodeSystem/CatPatientBreed|0.1.0"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://example.org/fhir/CodeSystem/BirdPatientBreed|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "labrador",
+          "display" : "Labrador"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "beagle",
+          "display" : "Beagle"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "bulldog",
+          "display" : "Bulldog"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "poodle",
+          "display" : "Poodle"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "husky",
+          "display" : "Husky"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "chihuahua",
+          "display" : "Chihuahua"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "doberman",
+          "display" : "Doberman"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "shiba",
+          "display" : "Shiba Inu"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "shihtzu",
+          "display" : "Shih Tzu"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "domestic",
+          "display" : "Domestic"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "siamese",
+          "display" : "Siamese"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "persian",
+          "display" : "Persian"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "siberian",
+          "display" : "Siberian"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "british_shorthair",
+          "display" : "British Shorthair"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "russian_blue",
+          "display" : "Russian Blue"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "muchkin",
+          "display" : "Munchkin"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "ragdoll",
+          "display" : "Ragdoll"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "birman",
+          "display" : "Birman"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "canary",
+          "display" : "Canary"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "cockatiel",
+          "display" : "Cockatiel"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "parrot",
+          "display" : "Parrot"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "sparrow",
+          "display" : "Sparrow"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "dove",
+          "display" : "Dove"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://example.org/fhir/ValueSet/PatientGenderStatus",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-PatientGenderStatus.html\">codesystem Patient Gender Status Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 3 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientGenderStatus-neutered\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientGenderStatus.html#PatientGenderStatus-neutered\">neutered</a></td><td>https://example.org/fhir/CodeSystem/PatientGenderStatus</td><td>Neutered</td><td><div><p>The animal has been sterilized, castrated or otherwise made infertile.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientGenderStatus-intact\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientGenderStatus.html#PatientGenderStatus-intact\">intact</a></td><td>https://example.org/fhir/CodeSystem/PatientGenderStatus</td><td>Intact</td><td><div><p>The animal's reproductive organs are intact.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientGenderStatus-unknown\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientGenderStatus.html#PatientGenderStatus-unknown\">unknown</a></td><td>https://example.org/fhir/CodeSystem/PatientGenderStatus</td><td>Unknown</td><td><div><pre><code>Unable to determine whether the animal has been neutered.\n</code></pre>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://example.org/fhir/ValueSet/PatientGenderStatus",
+      "version" : "0.1.0",
+      "name" : "PatientGenderStatus",
+      "title" : "Patient Gender Status ValueSet",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2024-03-05T18:24:47-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:bb3da484-16a8-4edb-a9fb-16dab75c0105",
+        "timestamp" : "2024-03-05T18:25:47-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://example.org/fhir/CodeSystem/PatientGenderStatus|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://example.org/fhir/CodeSystem/PatientGenderStatus",
+          "code" : "neutered",
+          "display" : "Neutered"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientGenderStatus",
+          "code" : "intact",
+          "display" : "Intact"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientGenderStatus",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://example.org/fhir/ValueSet/PatientSpecies",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-PatientSpecies.html\">codesystem Patient Species Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 5 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientSpecies-dog\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientSpecies.html#PatientSpecies-dog\">dog</a></td><td>https://example.org/fhir/CodeSystem/PatientSpecies</td><td>Dog</td><td><div><p>A domesticated carnivorous mammal (Canis familiaris) related to the foxes and wolves and raised in a wide variety of breeds.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientSpecies-cat\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientSpecies.html#PatientSpecies-cat\">cat</a></td><td>https://example.org/fhir/CodeSystem/PatientSpecies</td><td>Cat</td><td><div><p>A small domesticated carnivorous mammal (Felis catus), kept as a pet and as catcher of vermin, and existing in a variety of breeds.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientSpecies-bird\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientSpecies.html#PatientSpecies-bird\">bird</a></td><td>https://example.org/fhir/CodeSystem/PatientSpecies</td><td>Bird</td><td><div><p>A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientSpecies-fish\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientSpecies.html#PatientSpecies-fish\">fish</a></td><td>https://example.org/fhir/CodeSystem/PatientSpecies</td><td>Fish</td><td><div><p>A limbless cold-blooded vertebrate animal with gills and fins and living wholly in water.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---example.org-fhir-CodeSystem-PatientSpecies-other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-PatientSpecies.html#PatientSpecies-other\">other</a></td><td>https://example.org/fhir/CodeSystem/PatientSpecies</td><td>Other</td><td><div><p>Any other breed not included in the list.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://example.org/fhir/ValueSet/PatientSpecies",
+      "version" : "0.1.0",
+      "name" : "PatientSpecies",
+      "title" : "Patient Species Value Set",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2024-03-05T18:24:47-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d67bde22-5675-40b0-b808-34323ef39e16",
+        "timestamp" : "2024-03-05T18:25:47-05:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://example.org/fhir/CodeSystem/PatientSpecies|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+          "code" : "dog",
+          "display" : "Dog"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+          "code" : "cat",
+          "display" : "Cat"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+          "code" : "bird",
+          "display" : "Bird"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+          "code" : "fish",
+          "display" : "Fish"
+        },
+        {
+          "system" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="PatientGenderStatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/PatientGenderStatus</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">neutered<a name="PatientGenderStatus-neutered"> </a></td><td>Neutered</td><td>The animal has been sterilized, castrated or otherwise made infertile.</td></tr><tr><td style="white-space:nowrap">intact<a name="PatientGenderStatus-intact"> </a></td><td>Intact</td><td>The animal's reproductive organs are intact.</td></tr><tr><td style="white-space:nowrap">unknown<a name="PatientGenderStatus-unknown"> </a></td><td>Unknown</td><td>	Unable to determine whether the animal has been neutered.</td></tr></table></div>
+  </text>
+  <url value="https://example.org/fhir/CodeSystem/PatientGenderStatus"/>
+  <version value="0.1.0"/>
+  <name value="PatientGenderStatus"/>
+  <title value="Patient Gender Status Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="This code system defines the status of a patient's gender."/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="neutered"/>
+    <display value="Neutered"/>
+    <definition value="The animal has been sterilized, castrated or otherwise made infertile."/>
+  </concept>
+  <concept>
+    <code value="intact"/>
+    <display value="Intact"/>
+    <definition value="The animal's reproductive organs are intact."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="&#x9;Unable to determine whether the animal has been neutered."/>
+  </concept>
+</CodeSystem>

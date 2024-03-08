@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/PetZootechnicalPurpose> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PetZootechnicalPurpose"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/PetZootechnicalPurpose</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">hunting<a name=\"PetZootechnicalPurpose-hunting\"> </a></td><td>Hunting</td><td>The pet is used for hunting purposes.</td></tr><tr><td style=\"white-space:nowrap\">companion<a name=\"PetZootechnicalPurpose-companion\"> </a></td><td>Companion</td><td>The pet is used for companionship.</td></tr><tr><td style=\"white-space:nowrap\">guard<a name=\"PetZootechnicalPurpose-guard\"> </a></td><td>Guard</td><td>The pet is used for guarding purposes.</td></tr><tr><td style=\"white-space:nowrap\">show<a name=\"PetZootechnicalPurpose-show\"> </a></td><td>Show</td><td>The pet is used for show purposes.</td></tr><tr><td style=\"white-space:nowrap\">working<a name=\"PetZootechnicalPurpose-working\"> </a></td><td>Working</td><td>The pet is used for working purposes.</td></tr><tr><td style=\"white-space:nowrap\">breeding<a name=\"PetZootechnicalPurpose-breeding\"> </a></td><td>Breeding</td><td>The pet is used for breeding purposes.</td></tr><tr><td style=\"white-space:nowrap\">therapy<a name=\"PetZootechnicalPurpose-therapy\"> </a></td><td>Therapy</td><td>The pet is used for therapy purposes.</td></tr><tr><td style=\"white-space:nowrap\">service<a name=\"PetZootechnicalPurpose-service\"> </a></td><td>Service</td><td>The pet is used for service purposes.</td></tr><tr><td style=\"white-space:nowrap\">emotionalSupport<a name=\"PetZootechnicalPurpose-emotionalSupport\"> </a></td><td>Emotional Support</td><td>The pet is used for emotional support purposes (e.g. emotional support animal).</td></tr><tr><td style=\"white-space:nowrap\">recreational<a name=\"PetZootechnicalPurpose-recreational\"> </a></td><td>Recreational</td><td>The pet is used for recreational purposes.</td></tr><tr><td style=\"white-space:nowrap\">competition<a name=\"PetZootechnicalPurpose-competition\"> </a></td><td>Competition</td><td>The pet is used for competition purposes.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"PetZootechnicalPurpose-other\"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/PetZootechnicalPurpose"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PetZootechnicalPurpose"] ; # 
+  fhir:title [ fhir:v "Pet Zootechnical Purpose CodeSystem"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-05T18:24:47-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher Team C"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher Team C" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for the purpose of keeping a pet."] ; # 
+  fhir:purpose [ fhir:v "This FHIR resource type CodeSystem has been created for educational purposes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hunting" ] ;
+     fhir:display [ fhir:v "Hunting" ] ;
+     fhir:definition [ fhir:v "The pet is used for hunting purposes." ]
+  ] [
+     fhir:code [ fhir:v "companion" ] ;
+     fhir:display [ fhir:v "Companion" ] ;
+     fhir:definition [ fhir:v "The pet is used for companionship." ]
+  ] [
+     fhir:code [ fhir:v "guard" ] ;
+     fhir:display [ fhir:v "Guard" ] ;
+     fhir:definition [ fhir:v "The pet is used for guarding purposes." ]
+  ] [
+     fhir:code [ fhir:v "show" ] ;
+     fhir:display [ fhir:v "Show" ] ;
+     fhir:definition [ fhir:v "The pet is used for show purposes." ]
+  ] [
+     fhir:code [ fhir:v "working" ] ;
+     fhir:display [ fhir:v "Working" ] ;
+     fhir:definition [ fhir:v "The pet is used for working purposes." ]
+  ] [
+     fhir:code [ fhir:v "breeding" ] ;
+     fhir:display [ fhir:v "Breeding" ] ;
+     fhir:definition [ fhir:v "The pet is used for breeding purposes." ]
+  ] [
+     fhir:code [ fhir:v "therapy" ] ;
+     fhir:display [ fhir:v "Therapy" ] ;
+     fhir:definition [ fhir:v "The pet is used for therapy purposes." ]
+  ] [
+     fhir:code [ fhir:v "service" ] ;
+     fhir:display [ fhir:v "Service" ] ;
+     fhir:definition [ fhir:v "The pet is used for service purposes." ]
+  ] [
+     fhir:code [ fhir:v "emotionalSupport" ] ;
+     fhir:display [ fhir:v "Emotional Support" ] ;
+     fhir:definition [ fhir:v "The pet is used for emotional support purposes (e.g. emotional support animal)." ]
+  ] [
+     fhir:code [ fhir:v "recreational" ] ;
+     fhir:display [ fhir:v "Recreational" ] ;
+     fhir:definition [ fhir:v "The pet is used for recreational purposes." ]
+  ] [
+     fhir:code [ fhir:v "competition" ] ;
+     fhir:display [ fhir:v "Competition" ] ;
+     fhir:definition [ fhir:v "The pet is used for competition purposes." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Any other breed not included in the list." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/BirdPatientBreed> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BirdPatientBreed"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/BirdPatientBreed</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">canary<a name=\"BirdPatientBreed-canary\"> </a></td><td>Canary</td><td>A small songbird in the finch family originating from the Macaronesian islands.</td></tr><tr><td style=\"white-space:nowrap\">cockatiel<a name=\"BirdPatientBreed-cockatiel\"> </a></td><td>Cockatiel</td><td>A small parrot native to Australia.</td></tr><tr><td style=\"white-space:nowrap\">parrot<a name=\"BirdPatientBreed-parrot\"> </a></td><td>Parrot</td><td>A bird with a curved beak and a strong, zygodactylous feet.</td></tr><tr><td style=\"white-space:nowrap\">sparrow<a name=\"BirdPatientBreed-sparrow\"> </a></td><td>Sparrow</td><td>A family of small passerine birds.</td></tr><tr><td style=\"white-space:nowrap\">dove<a name=\"BirdPatientBreed-dove\"> </a></td><td>Dove</td><td>A bird of the pigeon family.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"BirdPatientBreed-other\"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/BirdPatientBreed"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BirdPatientBreed"] ; # 
+  fhir:title [ fhir:v "Bird Patient Breed Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-05T18:24:47-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher Team C"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher Team C" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes of bird breeds"] ; # 
+  fhir:purpose [ fhir:v "This FHIR resource type CodeSystem has been created for educational purposes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "canary" ] ;
+     fhir:display [ fhir:v "Canary" ] ;
+     fhir:definition [ fhir:v "A small songbird in the finch family originating from the Macaronesian islands." ]
+  ] [
+     fhir:code [ fhir:v "cockatiel" ] ;
+     fhir:display [ fhir:v "Cockatiel" ] ;
+     fhir:definition [ fhir:v "A small parrot native to Australia." ]
+  ] [
+     fhir:code [ fhir:v "parrot" ] ;
+     fhir:display [ fhir:v "Parrot" ] ;
+     fhir:definition [ fhir:v "A bird with a curved beak and a strong, zygodactylous feet." ]
+  ] [
+     fhir:code [ fhir:v "sparrow" ] ;
+     fhir:display [ fhir:v "Sparrow" ] ;
+     fhir:definition [ fhir:v "A family of small passerine birds." ]
+  ] [
+     fhir:code [ fhir:v "dove" ] ;
+     fhir:display [ fhir:v "Dove" ] ;
+     fhir:definition [ fhir:v "A bird of the pigeon family." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Any other breed not included in the list." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

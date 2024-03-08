@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/PatientGenderStatus> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientGenderStatus"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/PatientGenderStatus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">neutered<a name=\"PatientGenderStatus-neutered\"> </a></td><td>Neutered</td><td>The animal has been sterilized, castrated or otherwise made infertile.</td></tr><tr><td style=\"white-space:nowrap\">intact<a name=\"PatientGenderStatus-intact\"> </a></td><td>Intact</td><td>The animal's reproductive organs are intact.</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"PatientGenderStatus-unknown\"> </a></td><td>Unknown</td><td>	Unable to determine whether the animal has been neutered.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/PatientGenderStatus"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PatientGenderStatus"] ; # 
+  fhir:title [ fhir:v "Patient Gender Status Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-05T18:24:47-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher Team C"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher Team C" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This code system defines the status of a patient's gender."] ; # 
+  fhir:purpose [ fhir:v "This FHIR resource type CodeSystem has been created for educational purposes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "neutered" ] ;
+     fhir:display [ fhir:v "Neutered" ] ;
+     fhir:definition [ fhir:v "The animal has been sterilized, castrated or otherwise made infertile." ]
+  ] [
+     fhir:code [ fhir:v "intact" ] ;
+     fhir:display [ fhir:v "Intact" ] ;
+     fhir:definition [ fhir:v "The animal's reproductive organs are intact." ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "	Unable to determine whether the animal has been neutered." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,163 @@
+[
+  {
+    "id" : "teamc.id",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/teamc.id",
+    "version" : "0.1.0",
+    "name" : "Sushi_TeamC"
+  },
+  {
+    "id" : "BirdPatientBreed",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+    "version" : "0.1.0",
+    "name" : "BirdPatientBreed"
+  },
+  {
+    "id" : "CatPatientBreed",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+    "version" : "0.1.0",
+    "name" : "CatPatientBreed"
+  },
+  {
+    "id" : "DogPatientBreed",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+    "version" : "0.1.0",
+    "name" : "DogPatientBreed"
+  },
+  {
+    "id" : "PatientGenderStatus",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/PatientGenderStatus",
+    "version" : "0.1.0",
+    "name" : "PatientGenderStatus"
+  },
+  {
+    "id" : "PatientSpecies",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+    "version" : "0.1.0",
+    "name" : "PatientSpecies"
+  },
+  {
+    "id" : "PetZootechnicalPurpose",
+    "type" : "CodeSystem",
+    "url" : "https://example.org/fhir/CodeSystem/PetZootechnicalPurpose",
+    "version" : "0.1.0",
+    "name" : "PetZootechnicalPurpose"
+  },
+  {
+    "id" : "PatientBreed",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PatientBreed",
+    "version" : "0.1.0",
+    "name" : "PatientBreed"
+  },
+  {
+    "id" : "PatientGenderStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PatientGenderStatus",
+    "version" : "0.1.0",
+    "name" : "PatientGenderStatus"
+  },
+  {
+    "id" : "PatientSpecies",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PatientSpecies",
+    "version" : "0.1.0",
+    "name" : "PatientSpecies"
+  },
+  {
+    "id" : "PetOrigin",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetOrigin",
+    "version" : "0.1.0",
+    "name" : "PetOrigin"
+  },
+  {
+    "id" : "PetOwnerRelatedPerson",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetOwnerRelatedPerson",
+    "version" : "0.1.0",
+    "name" : "PetOwnerRelatedPerson"
+  },
+  {
+    "id" : "PetParticularSigns",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetParticularSigns",
+    "version" : "0.1.0",
+    "name" : "PetParticularSigns"
+  },
+  {
+    "id" : "PetPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetPatient",
+    "version" : "0.1.0",
+    "name" : "PetPatient"
+  },
+  {
+    "id" : "PetTypeCoat",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetTypeCoat",
+    "version" : "0.1.0",
+    "name" : "PetTypeCoat"
+  },
+  {
+    "id" : "PetWeight",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetWeight",
+    "version" : "0.1.0",
+    "name" : "PetWeight"
+  },
+  {
+    "id" : "PetZootechnicalPurpose",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose",
+    "version" : "0.1.0",
+    "name" : "PetZootechnicalPurpose"
+  },
+  {
+    "id" : "VetComposition",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/VetComposition",
+    "version" : "0.1.0",
+    "name" : "VetComposition"
+  },
+  {
+    "id" : "VetOrganization",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/VetOrganization",
+    "version" : "0.1.0",
+    "name" : "VetOrganization"
+  },
+  {
+    "id" : "VetPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/VetPractitioner",
+    "version" : "0.1.0",
+    "name" : "VetPractitioner"
+  },
+  {
+    "id" : "PatientBreed",
+    "type" : "ValueSet",
+    "url" : "https://example.org/fhir/ValueSet/PatientBreed",
+    "version" : "0.1.0",
+    "name" : "PatientBreed"
+  },
+  {
+    "id" : "PatientGenderStatus",
+    "type" : "ValueSet",
+    "url" : "https://example.org/fhir/ValueSet/PatientGenderStatus",
+    "version" : "0.1.0",
+    "name" : "PatientGenderStatus"
+  },
+  {
+    "id" : "PatientSpecies",
+    "type" : "ValueSet",
+    "url" : "https://example.org/fhir/ValueSet/PatientSpecies",
+    "version" : "0.1.0",
+    "name" : "PatientSpecies"
+  }
+]

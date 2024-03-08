@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BirdPatientBreed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/BirdPatientBreed</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">canary<a name="BirdPatientBreed-canary"> </a></td><td>Canary</td><td>A small songbird in the finch family originating from the Macaronesian islands.</td></tr><tr><td style="white-space:nowrap">cockatiel<a name="BirdPatientBreed-cockatiel"> </a></td><td>Cockatiel</td><td>A small parrot native to Australia.</td></tr><tr><td style="white-space:nowrap">parrot<a name="BirdPatientBreed-parrot"> </a></td><td>Parrot</td><td>A bird with a curved beak and a strong, zygodactylous feet.</td></tr><tr><td style="white-space:nowrap">sparrow<a name="BirdPatientBreed-sparrow"> </a></td><td>Sparrow</td><td>A family of small passerine birds.</td></tr><tr><td style="white-space:nowrap">dove<a name="BirdPatientBreed-dove"> </a></td><td>Dove</td><td>A bird of the pigeon family.</td></tr><tr><td style="white-space:nowrap">other<a name="BirdPatientBreed-other"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>
+  </text>
+  <url value="https://example.org/fhir/CodeSystem/BirdPatientBreed"/>
+  <version value="0.1.0"/>
+  <name value="BirdPatientBreed"/>
+  <title value="Bird Patient Breed Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-05T18:24:47-05:00"/>
+  <publisher value="Example Publisher Team C"/>
+  <contact>
+    <name value="Example Publisher Team C"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Codes of bird breeds"/>
+  <purpose value="This FHIR resource type CodeSystem has been created for educational purposes."/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="canary"/>
+    <display value="Canary"/>
+    <definition value="A small songbird in the finch family originating from the Macaronesian islands."/>
+  </concept>
+  <concept>
+    <code value="cockatiel"/>
+    <display value="Cockatiel"/>
+    <definition value="A small parrot native to Australia."/>
+  </concept>
+  <concept>
+    <code value="parrot"/>
+    <display value="Parrot"/>
+    <definition value="A bird with a curved beak and a strong, zygodactylous feet."/>
+  </concept>
+  <concept>
+    <code value="sparrow"/>
+    <display value="Sparrow"/>
+    <definition value="A family of small passerine birds."/>
+  </concept>
+  <concept>
+    <code value="dove"/>
+    <display value="Dove"/>
+    <definition value="A bird of the pigeon family."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Any other breed not included in the list."/>
+  </concept>
+</CodeSystem>

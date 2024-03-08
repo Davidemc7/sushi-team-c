@@ -1,0 +1,59 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://example.org/fhir/CodeSystem/BirdPatientBreed",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BirdPatientBreed",
+      "title" : "Bird Patient Breed Code System",
+      "description" : "Codes of bird breeds",
+      "uses" : {
+      },
+      "ValueSet-PatientBreed.html" : "Patient Breed ValueSet"
+    },
+    {
+      "url" : "https://example.org/fhir/CodeSystem/CatPatientBreed",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CatPatientBreed",
+      "title" : "Cat Patient Breed Code System",
+      "description" : "Codes of cat breeds",
+      "uses" : {
+      },
+      "ValueSet-PatientBreed.html" : "Patient Breed ValueSet"
+    },
+    {
+      "url" : "https://example.org/fhir/CodeSystem/DogPatientBreed",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DogPatientBreed",
+      "title" : "Dog Patient Breed Code System",
+      "description" : "Codes of dog breeds",
+      "uses" : {
+      },
+      "ValueSet-PatientBreed.html" : "Patient Breed ValueSet"
+    },
+    {
+      "url" : "https://example.org/fhir/CodeSystem/PatientGenderStatus",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientGenderStatus",
+      "title" : "Patient Gender Status Code System",
+      "description" : "This code system defines the status of a patient's gender.",
+      "uses" : {
+      },
+      "ValueSet-PatientGenderStatus.html" : "Patient Gender Status ValueSet"
+    },
+    {
+      "url" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientSpecies",
+      "title" : "Patient Species Code System",
+      "description" : "Codes of patient species",
+      "uses" : {
+      },
+      "ValueSet-PatientSpecies.html" : "Patient Species Value Set"
+    }
+  ]
+}

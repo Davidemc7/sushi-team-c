@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PatientGenderStatus",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PatientGenderStatus.html\"><code>https://example.org/fhir/CodeSystem/PatientGenderStatus</code></a></li></ul></div>"
+  },
+  "url" : "https://example.org/fhir/ValueSet/PatientGenderStatus",
+  "version" : "0.1.0",
+  "name" : "PatientGenderStatus",
+  "title" : "Patient Gender Status ValueSet",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2024-03-05T18:24:47-05:00",
+  "publisher" : "Example Publisher Team C",
+  "contact" : [{
+    "name" : "Example Publisher Team C",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes of patient gender status",
+  "purpose" : "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://example.org/fhir/CodeSystem/PatientGenderStatus"
+    }]
+  }
+}

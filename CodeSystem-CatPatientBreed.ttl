@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/CatPatientBreed> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CatPatientBreed"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/CatPatientBreed</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">domestic<a name=\"CatPatientBreed-domestic\"> </a></td><td>Domestic</td><td>Domestic cat breed.</td></tr><tr><td style=\"white-space:nowrap\">siamese<a name=\"CatPatientBreed-siamese\"> </a></td><td>Siamese</td><td>Siamese cat breed.</td></tr><tr><td style=\"white-space:nowrap\">persian<a name=\"CatPatientBreed-persian\"> </a></td><td>Persian</td><td>Persian cat breed with long hair and a round face.</td></tr><tr><td style=\"white-space:nowrap\">siberian<a name=\"CatPatientBreed-siberian\"> </a></td><td>Siberian</td><td>Siberian cat breed with a long, thick coat and a bush tail.</td></tr><tr><td style=\"white-space:nowrap\">british_shorthair<a name=\"CatPatientBreed-british_shorthair\"> </a></td><td>British Shorthair</td><td>British Shorthair cat breed with a round face and a dense coat.</td></tr><tr><td style=\"white-space:nowrap\">russian_blue<a name=\"CatPatientBreed-russian_blue\"> </a></td><td>Russian Blue</td><td>Russian Blue cat breed with a short, dense coat and a plush blue-gray color.</td></tr><tr><td style=\"white-space:nowrap\">muchkin<a name=\"CatPatientBreed-muchkin\"> </a></td><td>Munchkin</td><td>Munchkin cat breed with short legs.</td></tr><tr><td style=\"white-space:nowrap\">ragdoll<a name=\"CatPatientBreed-ragdoll\"> </a></td><td>Ragdoll</td><td>Ragdoll cat breed with a semi-long coat and blue eyes.</td></tr><tr><td style=\"white-space:nowrap\">birman<a name=\"CatPatientBreed-birman\"> </a></td><td>Birman</td><td>Birman cat breed with a long, silky coat and deep blue eyes.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"CatPatientBreed-other\"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/CatPatientBreed"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CatPatientBreed"] ; # 
+  fhir:title [ fhir:v "Cat Patient Breed Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-05T18:24:47-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher Team C"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher Team C" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes of cat breeds"] ; # 
+  fhir:purpose [ fhir:v "This FHIR resource type CodeSystem has been created for educational purposes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "domestic" ] ;
+     fhir:display [ fhir:v "Domestic" ] ;
+     fhir:definition [ fhir:v "Domestic cat breed." ]
+  ] [
+     fhir:code [ fhir:v "siamese" ] ;
+     fhir:display [ fhir:v "Siamese" ] ;
+     fhir:definition [ fhir:v "Siamese cat breed." ]
+  ] [
+     fhir:code [ fhir:v "persian" ] ;
+     fhir:display [ fhir:v "Persian" ] ;
+     fhir:definition [ fhir:v "Persian cat breed with long hair and a round face." ]
+  ] [
+     fhir:code [ fhir:v "siberian" ] ;
+     fhir:display [ fhir:v "Siberian" ] ;
+     fhir:definition [ fhir:v "Siberian cat breed with a long, thick coat and a bush tail." ]
+  ] [
+     fhir:code [ fhir:v "british_shorthair" ] ;
+     fhir:display [ fhir:v "British Shorthair" ] ;
+     fhir:definition [ fhir:v "British Shorthair cat breed with a round face and a dense coat." ]
+  ] [
+     fhir:code [ fhir:v "russian_blue" ] ;
+     fhir:display [ fhir:v "Russian Blue" ] ;
+     fhir:definition [ fhir:v "Russian Blue cat breed with a short, dense coat and a plush blue-gray color." ]
+  ] [
+     fhir:code [ fhir:v "muchkin" ] ;
+     fhir:display [ fhir:v "Munchkin" ] ;
+     fhir:definition [ fhir:v "Munchkin cat breed with short legs." ]
+  ] [
+     fhir:code [ fhir:v "ragdoll" ] ;
+     fhir:display [ fhir:v "Ragdoll" ] ;
+     fhir:definition [ fhir:v "Ragdoll cat breed with a semi-long coat and blue eyes." ]
+  ] [
+     fhir:code [ fhir:v "birman" ] ;
+     fhir:display [ fhir:v "Birman" ] ;
+     fhir:definition [ fhir:v "Birman cat breed with a long, silky coat and deep blue eyes." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Any other breed not included in the list." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

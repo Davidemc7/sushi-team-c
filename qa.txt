@@ -1,0 +1,118 @@
+Sushi_TeamC : Validation Results
+=========================================
+
+err = 44, warn = 17, info = 0
+IG Publisher Version: 1.5.16 Out of date - current version is 1.6.0
+Generated Tue Mar 05 18:28:32 COT 2024. FHIR version 4.0.1 for teamc.id#0.1.0 (canonical = http://example.org)
+Warning: This IG was generated with validation off. Many kinds of errors will not be reported.
+
+ Build Errors : 0 / 17 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-BirdPatientBreed : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-CatPatientBreed : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-DogPatientBreed : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientGenderStatus : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientSpecies : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PetZootechnicalPurpose : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ImplementationGuide-teamc.id : 0 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientBreed : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientGenderStatus : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientSpecies : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOrigin : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetParticularSigns : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetPatient : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetTypeCoat : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetWeight : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetComposition : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetOrganization : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetPractitioner : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientBreed : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientGenderStatus : 2 / 0 / 0
+ D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientSpecies : 2 / 0 / 0
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetOrigin.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetOwnerRelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetParticularSigns.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetTypeCoat.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetWeight.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetZootechnicalPurpose.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VetComposition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VetOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VetPractitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientBreed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientGenderStatus.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientSpecies.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-BirdPatientBreed.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/BirdPatientBreed'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-BirdPatientBreed.json - the canonical URL (http://example.org/CodeSystem/BirdPatientBreed) does not match the URL (https://example.org/fhir/CodeSystem/BirdPatientBreed)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-BirdPatientBreed: URL Mismatch http://example.org/CodeSystem/BirdPatientBreed vs https://example.org/fhir/CodeSystem/BirdPatientBreed
+== fsh-generated\resources\CodeSystem-CatPatientBreed.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/CatPatientBreed'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-CatPatientBreed.json - the canonical URL (http://example.org/CodeSystem/CatPatientBreed) does not match the URL (https://example.org/fhir/CodeSystem/CatPatientBreed)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-CatPatientBreed: URL Mismatch http://example.org/CodeSystem/CatPatientBreed vs https://example.org/fhir/CodeSystem/CatPatientBreed
+== fsh-generated\resources\CodeSystem-DogPatientBreed.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/DogPatientBreed'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-DogPatientBreed.json - the canonical URL (http://example.org/CodeSystem/DogPatientBreed) does not match the URL (https://example.org/fhir/CodeSystem/DogPatientBreed)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-DogPatientBreed: URL Mismatch http://example.org/CodeSystem/DogPatientBreed vs https://example.org/fhir/CodeSystem/DogPatientBreed
+== fsh-generated\resources\CodeSystem-PatientGenderStatus.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/PatientGenderStatus'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientGenderStatus.json - the canonical URL (http://example.org/CodeSystem/PatientGenderStatus) does not match the URL (https://example.org/fhir/CodeSystem/PatientGenderStatus)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientGenderStatus: URL Mismatch http://example.org/CodeSystem/PatientGenderStatus vs https://example.org/fhir/CodeSystem/PatientGenderStatus
+== fsh-generated\resources\CodeSystem-PatientSpecies.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/PatientSpecies'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientSpecies.json - the canonical URL (http://example.org/CodeSystem/PatientSpecies) does not match the URL (https://example.org/fhir/CodeSystem/PatientSpecies)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PatientSpecies: URL Mismatch http://example.org/CodeSystem/PatientSpecies vs https://example.org/fhir/CodeSystem/PatientSpecies
+== fsh-generated\resources\CodeSystem-PetZootechnicalPurpose.json ==
+ERROR: CodeSystem.where(url = 'https://example.org/fhir/CodeSystem/PetZootechnicalPurpose'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PetZootechnicalPurpose.json - the canonical URL (http://example.org/CodeSystem/PetZootechnicalPurpose) does not match the URL (https://example.org/fhir/CodeSystem/PetZootechnicalPurpose)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\CodeSystem-PetZootechnicalPurpose: URL Mismatch http://example.org/CodeSystem/PetZootechnicalPurpose vs https://example.org/fhir/CodeSystem/PetZootechnicalPurpose
+== fsh-generated\resources\ImplementationGuide-teamc.id.json ==
+== fsh-generated\resources\StructureDefinition-PatientBreed.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PatientBreed'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientBreed.json - the canonical URL (http://example.org/StructureDefinition/PatientBreed) does not match the URL (https://example.org/fhir/StructureDefinition/PatientBreed)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientBreed: URL Mismatch http://example.org/StructureDefinition/PatientBreed vs https://example.org/fhir/StructureDefinition/PatientBreed
+== fsh-generated\resources\StructureDefinition-PatientGenderStatus.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PatientGenderStatus'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientGenderStatus.json - the canonical URL (http://example.org/StructureDefinition/PatientGenderStatus) does not match the URL (https://example.org/fhir/StructureDefinition/PatientGenderStatus)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientGenderStatus: URL Mismatch http://example.org/StructureDefinition/PatientGenderStatus vs https://example.org/fhir/StructureDefinition/PatientGenderStatus
+== fsh-generated\resources\StructureDefinition-PatientSpecies.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PatientSpecies'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientSpecies.json - the canonical URL (http://example.org/StructureDefinition/PatientSpecies) does not match the URL (https://example.org/fhir/StructureDefinition/PatientSpecies)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PatientSpecies: URL Mismatch http://example.org/StructureDefinition/PatientSpecies vs https://example.org/fhir/StructureDefinition/PatientSpecies
+== fsh-generated\resources\StructureDefinition-PetOrigin.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetOrigin'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOrigin.json - the canonical URL (http://example.org/StructureDefinition/PetOrigin) does not match the URL (https://example.org/fhir/StructureDefinition/PetOrigin)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOrigin: URL Mismatch http://example.org/StructureDefinition/PetOrigin vs https://example.org/fhir/StructureDefinition/PetOrigin
+== fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetOwnerRelatedPerson'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson.json - the canonical URL (http://example.org/StructureDefinition/PetOwnerRelatedPerson) does not match the URL (https://example.org/fhir/StructureDefinition/PetOwnerRelatedPerson)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson: URL Mismatch http://example.org/StructureDefinition/PetOwnerRelatedPerson vs https://example.org/fhir/StructureDefinition/PetOwnerRelatedPerson
+== fsh-generated\resources\StructureDefinition-PetParticularSigns.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetParticularSigns'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetParticularSigns.json - the canonical URL (http://example.org/StructureDefinition/PetParticularSigns) does not match the URL (https://example.org/fhir/StructureDefinition/PetParticularSigns)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetParticularSigns: URL Mismatch http://example.org/StructureDefinition/PetParticularSigns vs https://example.org/fhir/StructureDefinition/PetParticularSigns
+== fsh-generated\resources\StructureDefinition-PetPatient.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetPatient'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetPatient.json - the canonical URL (http://example.org/StructureDefinition/PetPatient) does not match the URL (https://example.org/fhir/StructureDefinition/PetPatient)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetPatient: URL Mismatch http://example.org/StructureDefinition/PetPatient vs https://example.org/fhir/StructureDefinition/PetPatient
+== fsh-generated\resources\StructureDefinition-PetTypeCoat.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetTypeCoat'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetTypeCoat.json - the canonical URL (http://example.org/StructureDefinition/PetTypeCoat) does not match the URL (https://example.org/fhir/StructureDefinition/PetTypeCoat)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetTypeCoat: URL Mismatch http://example.org/StructureDefinition/PetTypeCoat vs https://example.org/fhir/StructureDefinition/PetTypeCoat
+== fsh-generated\resources\StructureDefinition-PetWeight.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetWeight'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetWeight.json - the canonical URL (http://example.org/StructureDefinition/PetWeight) does not match the URL (https://example.org/fhir/StructureDefinition/PetWeight)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetWeight: URL Mismatch http://example.org/StructureDefinition/PetWeight vs https://example.org/fhir/StructureDefinition/PetWeight
+== fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json - the canonical URL (http://example.org/StructureDefinition/PetZootechnicalPurpose) does not match the URL (https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose: URL Mismatch http://example.org/StructureDefinition/PetZootechnicalPurpose vs https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose
+== fsh-generated\resources\StructureDefinition-VetComposition.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/VetComposition'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetComposition.json - the canonical URL (http://example.org/StructureDefinition/VetComposition) does not match the URL (https://example.org/fhir/StructureDefinition/VetComposition)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetComposition: URL Mismatch http://example.org/StructureDefinition/VetComposition vs https://example.org/fhir/StructureDefinition/VetComposition
+== fsh-generated\resources\StructureDefinition-VetOrganization.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/VetOrganization'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetOrganization.json - the canonical URL (http://example.org/StructureDefinition/VetOrganization) does not match the URL (https://example.org/fhir/StructureDefinition/VetOrganization)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetOrganization: URL Mismatch http://example.org/StructureDefinition/VetOrganization vs https://example.org/fhir/StructureDefinition/VetOrganization
+== fsh-generated\resources\StructureDefinition-VetPractitioner.json ==
+ERROR: StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/VetPractitioner'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetPractitioner.json - the canonical URL (http://example.org/StructureDefinition/VetPractitioner) does not match the URL (https://example.org/fhir/StructureDefinition/VetPractitioner)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\StructureDefinition-VetPractitioner: URL Mismatch http://example.org/StructureDefinition/VetPractitioner vs https://example.org/fhir/StructureDefinition/VetPractitioner
+== fsh-generated\resources\ValueSet-PatientBreed.json ==
+ERROR: ValueSet.where(url = 'https://example.org/fhir/ValueSet/PatientBreed'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientBreed.json - the canonical URL (http://example.org/ValueSet/PatientBreed) does not match the URL (https://example.org/fhir/ValueSet/PatientBreed)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientBreed: URL Mismatch http://example.org/ValueSet/PatientBreed vs https://example.org/fhir/ValueSet/PatientBreed
+== fsh-generated\resources\ValueSet-PatientGenderStatus.json ==
+ERROR: ValueSet.where(url = 'https://example.org/fhir/ValueSet/PatientGenderStatus'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientGenderStatus.json - the canonical URL (http://example.org/ValueSet/PatientGenderStatus) does not match the URL (https://example.org/fhir/ValueSet/PatientGenderStatus)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientGenderStatus: URL Mismatch http://example.org/ValueSet/PatientGenderStatus vs https://example.org/fhir/ValueSet/PatientGenderStatus
+== fsh-generated\resources\ValueSet-PatientSpecies.json ==
+ERROR: ValueSet.where(url = 'https://example.org/fhir/ValueSet/PatientSpecies'): Conformance resource D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientSpecies.json - the canonical URL (http://example.org/ValueSet/PatientSpecies) does not match the URL (https://example.org/fhir/ValueSet/PatientSpecies)
+ERROR: D:\sushi-team-c\Sushi_TeamC\fsh-generated\resources\ValueSet-PatientSpecies: URL Mismatch http://example.org/ValueSet/PatientSpecies vs https://example.org/fhir/ValueSet/PatientSpecies

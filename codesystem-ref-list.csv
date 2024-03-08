@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+https://example.org/fhir/CodeSystem/BirdPatientBreed,0.1.0,draft,,BirdPatientBreed,Bird Patient Breed Code System,"Codes of bird breeds","ValueSet/PatientBreed"
+https://example.org/fhir/CodeSystem/CatPatientBreed,0.1.0,draft,,CatPatientBreed,Cat Patient Breed Code System,"Codes of cat breeds","ValueSet/PatientBreed"
+https://example.org/fhir/CodeSystem/DogPatientBreed,0.1.0,draft,,DogPatientBreed,Dog Patient Breed Code System,"Codes of dog breeds","ValueSet/PatientBreed"
+https://example.org/fhir/CodeSystem/PatientGenderStatus,0.1.0,draft,,PatientGenderStatus,Patient Gender Status Code System,"This code system defines the status of a patient's gender.","ValueSet/PatientGenderStatus"
+https://example.org/fhir/CodeSystem/PatientSpecies,0.1.0,draft,,PatientSpecies,Patient Species Code System,"Codes of patient species","ValueSet/PatientSpecies"

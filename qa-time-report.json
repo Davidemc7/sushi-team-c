@@ -1,0 +1,1024 @@
+{
+  "date" : "Tue, 05 Mar, 2024 18:24:47 -0500",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-teamc.id.json",
+      "size" : 5466,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 61
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 76
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 254
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 142
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-BirdPatientBreed.json",
+      "size" : 1263,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 144
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 1541
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-CatPatientBreed.json",
+      "size" : 1853,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 144
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 73
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-DogPatientBreed.json",
+      "size" : 1782,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 33,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 145
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 60
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-PatientGenderStatus.json",
+      "size" : 953,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 133
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 81
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-PatientSpecies.json",
+      "size" : 1400,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 344
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 50
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-PetZootechnicalPurpose.json",
+      "size" : 2098,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 9
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 167
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 50
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PatientBreed.json",
+      "size" : 1290,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 58
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 58
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 289
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 683
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PatientGenderStatus.json",
+      "size" : 1300,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 48
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 46
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 302
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 271
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PatientSpecies.json",
+      "size" : 1263,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 59
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 42
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 278
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 242
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 238,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetOrigin.json",
+      "size" : 7904,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 21
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 25
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 336
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 281
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 887
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 1242
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 15
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetOwnerRelatedPerson.json",
+      "size" : 5822,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 15
+        },
+        {
+          "activity" : "scan",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 246
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 209
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 1015
+        },
+        {
+          "activity" : "generate2",
+          "start" : 72,
+          "length" : 730
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetParticularSigns.json",
+      "size" : 7948,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 20
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 23
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 289
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 277
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 916
+        },
+        {
+          "activity" : "generate2",
+          "start" : 73,
+          "length" : 622
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetPatient.json",
+      "size" : 5689,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 20
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 290
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 289
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 36,
+          "length" : 3
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 759
+        },
+        {
+          "activity" : "generate2",
+          "start" : 74,
+          "length" : 871
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetTypeCoat.json",
+      "size" : 7924,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 20
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 24
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 287
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 270
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 954
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 539
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetWeight.json",
+      "size" : 8552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 26
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 25
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 312
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 297
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 949
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 770
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PetZootechnicalPurpose.json",
+      "size" : 8727,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 27
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 31,
+          "length" : 332
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 304
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 970
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 596
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 17
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 253,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-VetComposition.json",
+      "size" : 26640,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 57
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 73
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 31,
+          "length" : 835
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 795
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 2359
+        },
+        {
+          "activity" : "generate2",
+          "start" : 77,
+          "length" : 1657
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 226,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 32
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-VetOrganization.json",
+      "size" : 7266,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 24
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 283
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 255
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 1255
+        },
+        {
+          "activity" : "generate2",
+          "start" : 78,
+          "length" : 496
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-VetPractitioner.json",
+      "size" : 7882,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 29,
+          "length" : 21
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 277
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 33,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 248
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 901
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 491
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 253,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-PatientBreed.json",
+      "size" : 704,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 45
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 355
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 8636
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-PatientGenderStatus.json",
+      "size" : 555,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 167
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 774
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 239,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-PatientSpecies.json",
+      "size" : 524,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 178
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 1311
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "PatientSpecies",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/PatientSpecies</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">dog<a name=\"PatientSpecies-dog\"> </a></td><td>Dog</td><td>A domesticated carnivorous mammal (Canis familiaris) related to the foxes and wolves and raised in a wide variety of breeds.</td></tr><tr><td style=\"white-space:nowrap\">cat<a name=\"PatientSpecies-cat\"> </a></td><td>Cat</td><td>A small domesticated carnivorous mammal (Felis catus), kept as a pet and as catcher of vermin, and existing in a variety of breeds.</td></tr><tr><td style=\"white-space:nowrap\">bird<a name=\"PatientSpecies-bird\"> </a></td><td>Bird</td><td>A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly.</td></tr><tr><td style=\"white-space:nowrap\">fish<a name=\"PatientSpecies-fish\"> </a></td><td>Fish</td><td>A limbless cold-blooded vertebrate animal with gills and fins and living wholly in water.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"PatientSpecies-other\"> </a></td><td>Other</td><td>Any other breed not included in the list.</td></tr></table></div>"
+  },
+  "url" : "https://example.org/fhir/CodeSystem/PatientSpecies",
+  "version" : "0.1.0",
+  "name" : "PatientSpecies",
+  "title" : "Patient Species Code System",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2024-03-05T18:24:47-05:00",
+  "publisher" : "Example Publisher Team C",
+  "contact" : [{
+    "name" : "Example Publisher Team C",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes of patient species",
+  "purpose" : "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "dog",
+    "display" : "Dog",
+    "definition" : "A domesticated carnivorous mammal (Canis familiaris) related to the foxes and wolves and raised in a wide variety of breeds."
+  },
+  {
+    "code" : "cat",
+    "display" : "Cat",
+    "definition" : "A small domesticated carnivorous mammal (Felis catus), kept as a pet and as catcher of vermin, and existing in a variety of breeds."
+  },
+  {
+    "code" : "bird",
+    "display" : "Bird",
+    "definition" : "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly."
+  },
+  {
+    "code" : "fish",
+    "display" : "Fish",
+    "definition" : "A limbless cold-blooded vertebrate animal with gills and fins and living wholly in water."
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Any other breed not included in the list."
+  }]
+}

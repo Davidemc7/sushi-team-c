@@ -1,0 +1,35 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://example.org/fhir/ValueSet/PatientBreed",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientBreed",
+      "title" : "Patient Breed ValueSet",
+      "description" : "Codes for the breed of a patient.",
+      "systems" : [
+        "https://example.org/fhir/CodeSystem/CatPatientBreed",
+        "https://example.org/fhir/CodeSystem/DogPatientBreed",
+        "https://example.org/fhir/CodeSystem/BirdPatientBreed"
+      ]
+    },
+    {
+      "url" : "https://example.org/fhir/ValueSet/PatientGenderStatus",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientGenderStatus",
+      "title" : "Patient Gender Status ValueSet",
+      "description" : "Codes of patient gender status",
+      "systems" : ["https://example.org/fhir/CodeSystem/PatientGenderStatus"]
+    },
+    {
+      "url" : "https://example.org/fhir/ValueSet/PatientSpecies",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientSpecies",
+      "title" : "Patient Species Value Set",
+      "description" : "Codes of patient species",
+      "systems" : ["https://example.org/fhir/CodeSystem/PatientSpecies"]
+    }
+  ]
+}
