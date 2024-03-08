@@ -47,11 +47,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span>
+          <p><span style="font-size:12pt;font-weight:bold">Guía de implementación FHIR para un escenario de medicina veterinaria - Equipo C</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
-
-
             </span>
           </p>
         </div>
@@ -172,11 +170,54 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h1 id="sushi_teamc">Sushi_TeamC</h1>
+<h1 id="sushi_teamc">Guía de implementación FHIR para un escenario de medicina veterinaria</h1>
 
-<p>Feel free to modify this index page with your own awesome content!</p>
+<div>
+  <h2>Introducción</h2>
+  <p>
+    Bienvenido a la guía de implementación para la adopción de FHIR HL7 en tu veterinaria de mascotas. 
+    En este documento, exploraremos cómo puedes aprovechar FHIR para mejorar la eficiencia y la calidad de la atención en tu 
+    práctica veterinaria, facilitando el intercambio de información con otros proveedores de atención médica 
+    y sistemas de salud. Desde la gestión de registros de pacientes hasta la coordinación de la atención entre 
+    diferentes especialidades, FHIR ofrece una solución integral para optimizar los procesos clínicos y 
+    administrativos en tu veterinaria de mascotas.
+  </p>
+</div>
 
+<div>
+  <h2>Características del escenario</h2>
+  <p>
+    La guía de implementación de medicina veterinaria para mascotas, incluye los siguientes perfiles generales:
+  </p>
+  <li>Perfil de paciente mascota (PetPatient).</li>
+  <li>Perfil de la persona propietaria de la mascota (PetOwnerRelatedPerson).</li>
+  <li>Perfil de profesional veterinario (VetPractitioner).</li>
+  <li>Perfil de organización prestadora de servicios veterinarios - establecimiento veterinario (VetOrganization).</li>
+  <li>Perfil de documento FHIR de Historia Clínica Veterinaria - para pequeños animales (VetComposition).</li>
+</div>
 
+<div>
+  <h2>Diagrama de recursos</h2>
+  <p>
+    El diagrama de recursos ayudaran a comprender cómo se modela la información en FHIR y cómo se pueden utilizar 
+    los recursos para intercambiar datos entre sistemas de información médica veterinaria.
+  </p>
+  <img src="assets/images/class-diagram.png" style="width: 100%;" />
+</div>
+
+<div>
+  <h2>Autores</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td>David Esteban Monsalve Carmona</td>
+      </tr>
+      <tr>
+        <td>Omar Alexis Gallego Vargas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </div>
         </div>  <!-- /inner-wrapper -->
